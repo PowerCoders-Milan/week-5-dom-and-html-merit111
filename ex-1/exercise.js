@@ -1,5 +1,15 @@
 // Use this function that is linked to the button to change the background
 
 function set_background() {
+    docBody = document.getElementsByTagName("body")[0];
+    myBodyElements = docBody.getElementsByTagName("p");
+    myp1 = myBodyElements[0];
+    myp1.style.background = "rgb(255,0,0)";
+    myp2 = myBodyElements[1];
+    myp2.style.background = "rgb(255,255,0)";
+    myp3 = myBodyElements[2];
+    myp3.style.background = "rgb(255,180,0)";
+
+    console.log(set_background);
 
 }
